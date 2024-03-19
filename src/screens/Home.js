@@ -5,9 +5,9 @@ import Menu from "../components/Menu";
 
 const Home = () => {
   return (
-    <View className="mt-5 ">
+    <View className="mt-[50px] h-full w-full">
       <Header />
-      <View className="flex-1">
+      <View className="flex-1 h-full w-full">
         <Menu />
       </View>
     </View>

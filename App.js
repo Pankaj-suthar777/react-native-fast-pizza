@@ -7,7 +7,7 @@ import Home from "./src/screens/Home";
 export default function App() {
   return (
     <TamaguiProvider config={tamaguiConfig}>
-      <View className="flex-1">
+      <View className="flex-1 w-screen">
         <Home />
       </View>
     </TamaguiProvider>
