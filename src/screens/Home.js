@@ -1,12 +1,10 @@
 import React from "react";
-import { View, Text } from "react-native";
-import Header from "../components/Header";
+import { View } from "react-native";
 import Menu from "../components/Menu";
 
 const Home = () => {
   return (
-    <View className="mt-[50px] h-full w-full">
-      <Header />
+    <View className="h-full w-full">
       <View className="flex-1 h-full w-full">
         <Menu />
       </View>
